@@ -4,12 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "qqq": "ts-node index.ts"
+    "qqq": "ts-node index.ts",
+    "ddd": "ts-node decorator-example.ts"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "graphql": "^16.8.1",
     "pg": "^8.11.3",
     "ts-node": "^10.9.2",
     "typeorm": "^0.3.17"
